@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Roboto+Condensed:ital@1&family=Roboto+Mono:wght@300;400&family=Rubik+Glitch&family=Source+Sans+Pro:wght@300;400&display=swap');
 body {
+  overflow-x:hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-image: url("https://drive.google.com/file/d/1rFcYvCneb4iTcqliP60EPJ6B4pUgEIC8/view?usp=sharing");
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+.Separation{
+  opacity:10%;
+  position:relative;
+  top:3vh;
 }
