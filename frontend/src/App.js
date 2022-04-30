@@ -3,7 +3,6 @@ import Footer from "./components/Footer";
 function App(){
   return (
     <>
-  
     <NavBar></NavBar>
     <Footer/>
     </>
@@ -11,3 +10,5 @@ function App(){
 }
 
 export default App;
+
+//4D555D footer background

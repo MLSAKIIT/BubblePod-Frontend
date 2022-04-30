@@ -9,7 +9,7 @@ function NavBar() {
     <div className="Nav">
     <img src={navgradient}/>
     <div>
-    <img className="logo" src={logo}/>
+    <img className="logo " src={logo}/>
     </div>
     <div className="Nav-items">
         <li className="Margin">Options</li>
