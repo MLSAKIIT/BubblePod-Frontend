@@ -1,10 +1,15 @@
 import NavBar from "./components/Nav-Bar";
 import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
+
+
 function App(){
   return (
     <>
-    <NavBar></NavBar>
+    <NavBar/>
     <Footer/>
+    {/* <HeroSection/> css needs to be fixed 1st priority */}
+   
     </>
   );
 }
