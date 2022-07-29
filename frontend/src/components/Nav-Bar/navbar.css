@@ -1,0 +1,47 @@
+.nav-bar{
+
+}
+.logo{
+    position:relative;
+    bottom:15vh;
+    left:14vh;
+}
+
+.Nav-items{
+    list-style:none;
+    display:flex;
+position:relative;
+bottom:24vh;
+left:45vh;
+}
+
+.Margin{
+    margin-right:14vh;
+    font-size:24px;
+    color:white;
+}
+.login-button{
+    margin-left:40vh;
+    border-radius:35px;
+    width:180px;
+    height:65px;
+    position:relative;
+    bottom:2vh;
+    background-color:#111416;
+    color:white;
+    font-size:34px;
+    padding: 1vh 2vh;
+    border-color:#3BC5AB;
+}
+
+.image-shadow:hover{
+    -moz-box-shadow: 0 0 10px rgb(4, 4, 4);
+         -webkit-box-shadow: 0 0 10px rgb(12, 9, 9);
+         box-shadow: 0 0 10px rgb(22, 21, 21);
+   }
+
+.img-size{
+    height:30px;
+    width:30px;
+  margin-right:1vh;
+}

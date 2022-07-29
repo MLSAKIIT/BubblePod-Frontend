@@ -1,0 +1,36 @@
+.footer{
+    background-color: #4D555D;
+    min-width: 100%;
+    position: relative;
+    top: 18rem;
+    height: 19rem;
+    display: flex;
+}
+.FollowUs{
+    margin-top: 2rem;
+    margin-left: 20rem;
+    font-size: 36px;
+    color: #FFF626;
+}
+
+.GetinTouch{
+    margin-top: 2rem;
+    margin-left: 20rem;
+    font-size: 36px;
+    color: #FFF626;
+}
+
+.AboutUs{
+    margin-top: 2rem;
+    margin-left: 20rem;
+    font-size: 36px;
+    color: #FFF626;
+}
+
+.MSC{
+    color: #106EEF;
+    font-size: 22px;
+    position: relative;
+    top: 15rem;
+    right: 45rem;
+}
