@@ -1,13 +1,13 @@
 import NavBar from "./components/Nav-Bar";
 import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-
+//import HeroSection from "./components/HeroSection";
+import Interest from "./components/Interest/Interest"
 
 function App(){
   return (
     <>
     <NavBar/>
-    <Footer/>
+    <Interest/>
     {/* <HeroSection/> css needs to be fixed 1st priority */}
    
     </>
