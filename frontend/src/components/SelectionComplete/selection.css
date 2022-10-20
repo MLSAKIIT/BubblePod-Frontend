@@ -1,0 +1,41 @@
+body{
+  background-image: url("./background.png");
+  margin-top:0;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: none;
+  background-size:cover;
+  appearance: none;
+  border: none;
+  border: 3px solid white;
+}
+
+.circle.confirm {
+  width: 200px;
+  height: 200px;
+  font-size: 1.75rem;
+  color:white;
+}
+
+.buttonWrapper p {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
