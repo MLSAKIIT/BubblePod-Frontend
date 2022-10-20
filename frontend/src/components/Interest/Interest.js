@@ -17,7 +17,7 @@ const ButtonWithText = ({ text, src }) => {
       <button
         className="circle"
         style={{ backgroundImage: `url(${src})` }}>
-       </button>
+      </button>
       <p>{text}</p>
     </div>
   );
@@ -34,29 +34,28 @@ const SelectionButton = ({ text }) => {
 };
 
 
-export default function Interest(){
-    return (
-      <div className="container">
-        <div className="row">
-          <ButtonWithText text="Travelling" src={travelling} />
-          <ButtonWithText text="Movies/Series" src={movies} />
-          <ButtonWithText text="Music" src={music} />
-          <ButtonWithText text="Anime" src={anime} />
-        </div>
-        <div className="row">
-          <ButtonWithText text="Meme" src={meme} />
-          <ButtonWithText text="Video Games" src={videogames} />
-          <SelectionButton text="Select your Interest"  />
-          <ButtonWithText text="Food" src={food} />
-          <ButtonWithText text="Books" src={books} />
-        </div>
-        <div className="row">
-          <ButtonWithText text="Science And Technology" src={scienceAndTechnology} />
-          <ButtonWithText text="Sports" src={sports}/>
-          <ButtonWithText text="Sports" src={sports} />
-          <ButtonWithText text="Sports" src={sports} />
-        </div>
+export default function Interest() {
+  return (
+    <div className="container">
+      <div className="row">
+        <ButtonWithText text="Travelling" src={travelling} />
+        <ButtonWithText text="Movies/Series" src={movies} />
+        <ButtonWithText text="Music" src={music} />
+        <ButtonWithText text="Anime" src={anime} />
       </div>
-    );
-  };
-  
+      <div className="row">
+        <ButtonWithText text="Meme" src={meme} />
+        <ButtonWithText text="Video Games" src={videogames} />
+        <SelectionButton text="Select your Interest" />
+        <ButtonWithText text="Food" src={food} />
+        <ButtonWithText text="Books" src={books} />
+      </div>
+      <div className="row">
+        <ButtonWithText text="Science" src={scienceAndTechnology} />
+        <ButtonWithText text="Sports" src={sports} />
+        <ButtonWithText text="Sports" src={sports} />
+        <ButtonWithText text="Sports" src={sports} />
+      </div>
+    </div>
+  );
+};
