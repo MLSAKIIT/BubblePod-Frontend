@@ -1,10 +1,18 @@
 import NavBar from "./components/Nav-Bar";
 import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import Login from "./components/Login"
+//import HeroSection from "./components/HeroSection";
+import Interest from "./components/Interest/Interest";
+import Matching from "./components/MatchingSection/matching";
+import Login from "./components/Login";
 import Selection from "./components/SelectionComplete/selection";
-/*import {BrowserRouter as Router , Routes , Route} from react-DOM*/
+function App() {
+  return (
+    <>
+      <NavBar />
+      {/* <Interest /> */}
+      <Matching />
 
+/*import {BrowserRouter as Router , Routes , Route} from react-DOM*/
 /*<Router>
 <Routes>
 <Route path='/' path={<NavBar></NavBar>}/>
