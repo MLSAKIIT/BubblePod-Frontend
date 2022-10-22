@@ -2,6 +2,7 @@ import NavBar from "./components/Nav-Bar";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Login from "./components/Login"
+import Selection from "./components/SelectionComplete/selection";
 /*import {BrowserRouter as Router , Routes , Route} from react-DOM*/
 
 /*<Router>
@@ -16,7 +17,16 @@ function App(){
     <>
   <Login></Login>
     {/* <HeroSection/> css needs to be fixed 1st priority */}
-   
+function App() {
+  return (
+    <>
+      <NavBar />
+      <Selection />
+      <Footer />
+
+      {/* <Selection/> is in progress */}
+
+      {/* <HeroSection/> css needs to be fixed 1st priority */}
     </>
   );
 }
