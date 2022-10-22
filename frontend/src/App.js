@@ -1,25 +1,17 @@
 import NavBar from "./components/Nav-Bar";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
-<<<<<<< Updated upstream
-
-=======
 import Selection from "./components/SelectionComplete/selection";
->>>>>>> Stashed changes
-
-function App(){
+function App() {
   return (
     <>
-    <NavBar/>
-    <Selection/>
-    <Footer/>
-<<<<<<< Updated upstream
-=======
- 
-    {/* <Selection/> is in progress */}
->>>>>>> Stashed changes
-    {/* <HeroSection/> css needs to be fixed 1st priority */}
-   
+      <NavBar />
+      <Selection />
+      <Footer />
+
+      {/* <Selection/> is in progress */}
+
+      {/* <HeroSection/> css needs to be fixed 1st priority */}
     </>
   );
 }
