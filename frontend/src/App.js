@@ -1,15 +1,16 @@
 import NavBar from "./components/Nav-Bar";
 import Footer from "./components/Footer";
 //import HeroSection from "./components/HeroSection";
-import Interest from "./components/Interest/Interest"
+import Interest from "./components/Interest/Interest";
+import Matching from "./components/MatchingSection/matching";
 
-function App(){
+function App() {
   return (
     <>
-    <NavBar/>
-    <Interest/>
-    {/* <HeroSection/> css needs to be fixed 1st priority */}
-   
+      <NavBar />
+      {/* <Interest /> */}
+      <Matching />
+      {/* <HeroSection/> css needs to be fixed 1st priority */}
     </>
   );
 }
